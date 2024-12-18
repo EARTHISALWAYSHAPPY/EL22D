@@ -27,4 +27,4 @@ semilogx(W,abs_Zl);
 xlabel("W (rad/s)");
 ylabel("ZL (ohm)");
 grid minor
-
+ %%%%
