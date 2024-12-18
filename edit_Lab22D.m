@@ -1,7 +1,7 @@
 clc
 clear
 W = logspace(1 , 4 , 1000); % W = 10-1000 Rad/Sec
-Vs = 12;            % Voltage
+Vs = 12;                    % Voltage
 R = 100;                    % Resistor
 L = 100e-3;                 % Inductor
 C = 40e-6;                  % Capacitor
@@ -9,7 +9,7 @@ C = 40e-6;                  % Capacitor
 % init cal value
 Zr = R;                     % ZR
 Zl = 1j.*W.*L;              % ZL
-Zc = -1j./(W.*C);         % ZC
+Zc = -1j./(W.*C);           % ZC
 Zt = Zr + Zl + Zc;          % ZT(total)
 
 % plot Zc vs W
